@@ -1,7 +1,7 @@
 # TA-6DT  
 Test-time Adaptation for 6D Pose Tracking.
 
-[Project Page](https://bartektian.github.io/TA-6DT.html) 
+[Project Page](https://qm-ipalab.github.io/TA-6DT.html) 
 
 
 ## Overview
