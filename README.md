@@ -64,7 +64,3 @@ python benchmark.py
 ```
 This code is used to compute the accuracy score, including 5cm 5degree, IoU25, Rotation error, and Translation error
 
-
-## Trained Checkpoints
-You can download our trained checkpoints used for benchmarking and real robot experiments 
-from [Link](https://xxxx).
