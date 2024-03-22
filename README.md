@@ -27,7 +27,7 @@ This work is evaluated on two datasets:
 
 
 ## Training
-For NOCS-REAL275 dataset. Please go to /NOCS_REAL/ folder and run:
+For the NOCS-REAL275 dataset. Please go to /NOCS_REAL/ folder and run:
 ```bash
 python train.py --category NUM --dataset_root YOUR_NOCS_DATASET_PATH
 ```
@@ -36,21 +36,21 @@ where `NUM` is the category number you want to train.
 
 Hand-eye Camera dataset. Please go to /Hand_eye/ folder and run:
 ```bash
-python real_train.py --object NAME --dataset_root YOUR_HAND-EYE_DATASET_PATH --chechpoint YOUR_SAVED_MODEL_PATH
+python real_train.py --object NAME --dataset_root YOUR_HAND-EYE_DATASET_PATH --checkpoints YOUR_SAVED_MODEL_PATH
 ```
 where `NAME` is the object name that you want to adapt to.
 
 **Checkpoints and Resuming**: 
 After the training of each epoch, a `model_current_(category_name).pth` checkpoint will be saved. 
 You can use it to resume the training. 
-We test the model after each epoch and save the model has the best performance so far, as `model_(epoch)_(best_score)_(category_name).pth`, which can be used for the evaluation.
+We test the model after each epoch and save the model that has the best performance so far, as `model_(epoch)_(best_score)_(category_name).pth`, which can be used for the evaluation.
 
 ## Evaluation
 For NOCS-REAL275. Please go to /NOCS_REAL/ folder and run:
 ```bash
 python eval.py --checkpoint YOUR_SAVED_MODEL_PATH
 ```
-This code is used to visualize the predicted 6D pose information, and save the predicted poses in a .txt file for compute accuracy score. 
+This code is used to visualize the predicted 6D pose information and save the predicted poses in a .txt file for computing accuracy score. 
 
 
 Hand-eye Camera. Please go to /Hand_eye/ folder and run:
