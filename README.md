@@ -36,7 +36,7 @@ where `NUM` is the category number you want to train.
 
 Hand-eye Camera dataset. Please go to /Hand_eye/ folder and run:
 ```bash
-python real_train.py --object NAME --dataset_root YOUR_HAND-EYE_DATASET_PATH --checkpoints YOUR_SAVED_MODEL_PATH
+python real_train.py --object NAME --dataset_root YOUR_HAND-EYE_DATASET_PATH --checkpoint YOUR_SAVED_MODEL_PATH
 ```
 where `NAME` is the object name that you want to adapt to.
 
